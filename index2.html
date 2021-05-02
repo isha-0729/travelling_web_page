@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> COMPLETE RESPONSIVE WEBSITE DESIGN</title>
+    <link rel ="stylesheet" href="style2.css">
+    </head>
+    <body>
+    
+    <header>
+    <a hef="#" class="logo" >TRAVELL<spam>.</spam></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+         <ul class="navigation">
+             <li><a href="#banner">Home</a></li>
+             <li><a href="#about">Destination</a></li>
+             <li><a href="#features">Features</a></li>
+             <li><a href="#contact">Contact</a></li>
+             
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+    <div class="content">
+        <h2>ALWAYS CHOOSE TRAVELLING</h2>
+        <p> Traveling is easier than you think.
+            We believe that traveling around the world shouldn’t be hard:
+            it’s actually something everyone should be able to do at least once in their lives.
+            Whether you choose to spend a few years or just a couple
+            months traveling this beautiful planet, it’s important to see what’s out there. It’s up to you to make the dream come true and take the first step. Launch TripPlanner to piece together and price your ideal route. Not sure where to start?  You can always call one of our travel consultants and get some complimentary advice!</p>
+        <a href="#" class="btn"> READ MORE</a>
+        </div>
+        </section>
+        <section class="features" id="features">
+        <div class="title">
+            <h2 class="titleText"> Our<span>F</span>eatures</h2>
+            <p>“What a funny world we live in when we won’t turn our phones off but we get excited to see we’ve hiked far enough to lose service.”</p>
+            </div>
+            <div class="content">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="experience.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>“Travel isn’t always pretty. It isn’t always comfortable. Sometimes it hurts, it even breaks your heart.  </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="adventure.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>“The journey matters more than the destination.” ..
+                            “All good things are wild and free.” ...</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="happiness.jpg">
+                    </div>
+                    <div class="text">
+                        <h3> The journey changes you; it should change you. It leaves marks on your memory, on your consciousness,  heart.</h3>
+                </div>
+            </div>
+            </div>
+          <div class="title">
+                 <a href="#" class="btn"> View all</a>
+          </div>
+        </section>
+              <section class="destination" id="destination">
+                 <div class="title">
+                     <h2 class="titleText">Our Trips<br><span>D</span>estination</h2>
+                     <p>“There's something about arriving in new cities, wandering empty streets with no destination.</p>
+                 </div>
+                  
+              <div class="content">
+                 <div class="box">
+                   <div class="imgBx">
+                     <img src="agra.jpg">
+                   </div>
+                   <div class="text">
+                   <h3>Some Famous Forts</h3>
+            
+                   </div>
+                 </div>
+                     
+                <div class="box">
+                   <div class="imgBx">
+                     <img src="desert2.jpg">
+                   </div>
+                      <div class="text">
+                          <h3>Some Famous Desert</h3>
+                       </div>
+                </div>
+                <div class="box">
+                     <div class="imgBx">
+                        <img src="manali.jpg">
+                     </div>
+                     <div class="text">
+                       <h3>Some Famous Cold Places</h3>
+                     </div>
+                  </div>
+                <div class="box">
+                   <div class="imgBx">
+                       <img src="waterfall.jpg">
+                   </div>
+                    <div class="text">
+                      <h3>Some Famous Waterfall</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+             <section class="contact" id="contact">
+                 <div class="title">
+                    <h2 class="titleText"><span>C</span>ontact Us</h2>
+                 </div>
+                 <div class="contactForm">
+                    <h3>send message</h3>
+                    <div class="inputBox">
+                      <input type="text" placeholder="Name">
+                    </div>
+                    <div class="inputBox">
+                      <input type="text" placeholder="Email">
+                    </div>
+                     <div class="inputBox">
+                      <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="inputBox">
+                       <textarea placeholder="Name"></textarea>
+                    </div>
+                    <div class="inputBox">
+                      <input type="submit" value="Send">
+                    </div>
+                 </div>
+        </section>
+        <div class="copyrightText">
+        <p> Copyright 2021<a href="#" ></a>.All Rights Reserved</p></div>
+                
+         
+            
+        
+        
+        
+        
+        <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+        const header=document.querySelector('header');
+        header.classList.toggle("sticky" , window.scrollY >0);
+        });
+            function toggleMenu(){
+                const menuToggle=document.querySelector('menuToggle');
+                const navigation=document.querySelector('navigation');
+                menuToggle.classList.toggle('active');
+                navigation.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
